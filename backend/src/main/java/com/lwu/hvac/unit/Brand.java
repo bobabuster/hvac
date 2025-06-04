@@ -4,19 +4,20 @@ import java.util.List;
 
 public class Brand {
     private String name;
-    private List<Category> categories;
+    private List<ModelLine> modelLines;
 
     public Brand() {}
 
-    public Brand(String name, List<Category> categories) {
+    public Brand(String name, List<ModelLine> modelLines) {
         this.name = name;
-        this.categories = categories;
+        this.modelLines = modelLines;
     }
 
-    // Getters and Setters
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
+    public String getName() {
+        return name;
+    }
 
-    public List<Category> getCategories() { return categories; }
-    public void setCategories(List<Category> categories) { this.categories = categories; }
+    public List<ModelLine> getModelLines() {
+        return modelLines;
+    }
 }
