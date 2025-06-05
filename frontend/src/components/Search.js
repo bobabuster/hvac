@@ -7,7 +7,8 @@ export default function Search() {
   const [results, setResults] = useState([]);
   const navigate = useNavigate();
 
-  const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+  const API_BASE_URL = 'https://nosohvac.onrender.com';
+
 
   const handleSearch = async (e) => {
     e.preventDefault();
