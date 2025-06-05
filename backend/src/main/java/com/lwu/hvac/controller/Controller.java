@@ -12,10 +12,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/hvac")
-@CrossOrigin(origins = {
-        "http://localhost:3000",
-        "https://your-frontend.onrender.com"
-})
+@CrossOrigin(origins = {"http://localhost:3000", "https://hvac-dla8.onrender.com/"})
+
 public class Controller {
 
     @Autowired
