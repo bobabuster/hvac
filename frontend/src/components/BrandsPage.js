@@ -9,12 +9,14 @@ export default function BrandsPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const navigate = useNavigate();
 
+  const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+
   useEffect(() => {
     axios
-      .get('http://localhost:8080/api/hvac/brands')
+      .get(`${API_BASE_URL}/api/hvac/brands`)
       .then((res) => setBrands(res.data))
       .catch(console.error);
-  }, []);
+  }, [API_BASE_URL]);
 
   const handleSearchChange = (e) => {
     const keyword = e.target.value;
@@ -26,7 +28,7 @@ export default function BrandsPage() {
     }
 
     axios
-      .get(`http://localhost:8080/api/hvac/search?keyword=${encodeURIComponent(keyword)}`)
+      .get(`${API_BASE_URL}/api/hvac/search?keyword=${encodeURIComponent(keyword)}`)
       .then((res) => setSearchResults(res.data))
       .catch(console.error);
   };
@@ -40,8 +42,6 @@ export default function BrandsPage() {
       navigate(`/brand/${encodeURIComponent(result.brand)}/model-line/${encodeURIComponent(result.line)}`);
     }
   };
-  
-  
 
   return (
     <div className="page-container">

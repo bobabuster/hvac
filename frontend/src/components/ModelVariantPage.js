@@ -11,17 +11,19 @@ export default function ModelVariantPage() {
   const [variants, setVariants] = useState([]);
   const navigate = useNavigate();
 
+  const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+
   useEffect(() => {
     axios
       .get(
-        `http://localhost:8080/api/hvac/brands/${encodeURIComponent(decodedBrandName)}/model-lines/${encodeURIComponent(decodedModelLineName)}/variants`
+        `${API_BASE_URL}/api/hvac/brands/${encodeURIComponent(decodedBrandName)}/model-lines/${encodeURIComponent(decodedModelLineName)}/variants`
       )
       .then((res) => setVariants(res.data))
       .catch((err) => {
         console.error(err);
         navigate('/'); 
       });
-  }, [decodedBrandName, decodedModelLineName, navigate]);
+  }, [decodedBrandName, decodedModelLineName, navigate, API_BASE_URL]);
 
   return (
     <div className="page-container">

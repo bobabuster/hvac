@@ -7,6 +7,8 @@ export default function Search() {
   const [results, setResults] = useState([]);
   const navigate = useNavigate();
 
+  const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+
   const handleSearch = async (e) => {
     e.preventDefault();
     if (!keyword.trim()) {
@@ -14,7 +16,9 @@ export default function Search() {
       return;
     }
     try {
-      const res = await axios.get(`http://localhost:8080/api/hvac/search?keyword=${encodeURIComponent(keyword)}`);
+      const res = await axios.get(
+        `${API_BASE_URL}/api/hvac/search?keyword=${encodeURIComponent(keyword)}`
+      );
       setResults(res.data);
     } catch (err) {
       console.error(err);
@@ -26,7 +30,9 @@ export default function Search() {
     if (result.type === 'brand') {
       navigate(`/brand/${encodeURIComponent(result.name)}`);
     } else if (result.type === 'model') {
-      navigate(`/brand/${encodeURIComponent(result.brand)}/category/${encodeURIComponent(result.category)}/models`);
+      navigate(
+        `/brand/${encodeURIComponent(result.brand)}/category/${encodeURIComponent(result.category)}/models`
+      );
     }
   };
 
@@ -61,7 +67,8 @@ export default function Search() {
               <strong>Brand: {result.name || 'N/A'}</strong>
             ) : (
               <>
-                <strong>Model: {result.name || 'N/A'}</strong><br />
+                <strong>Model: {result.name || 'N/A'}</strong>
+                <br />
                 <small>
                   Brand: {result.brand || 'N/A'} | Category: {result.category || 'N/A'}
                 </small>

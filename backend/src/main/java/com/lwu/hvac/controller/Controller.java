@@ -12,7 +12,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/hvac")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {
+        "http://localhost:3000",
+        "https://your-frontend.onrender.com"
+})
 public class Controller {
 
     @Autowired
