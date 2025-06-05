@@ -5,38 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20fc118f-8530-499e-b3ec-447e1ac7de5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/dto/SearchResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/ModelLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/ModelVariant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/service/HvacService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/service/HvacService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/Category.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lwu/hvac/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lwu/hvac/controller/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lwu/hvac/service/HvacService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lwu/hvac/service/HvacService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lwu/hvac/unit/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lwu/hvac/unit/Brand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lwu/hvac/unit/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lwu/hvac/unit/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/BrandsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/BrandsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
