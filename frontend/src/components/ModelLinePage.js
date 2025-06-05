@@ -24,9 +24,7 @@ export default function ModelLinePage() {
   return (
     <div className="page-container">
       <h1>Model Lines for {decodedBrandName}</h1>
-      {modelLines.length === 0 ? (
-        <p>No model lines found for this brand.</p>
-      ) : (
+      {modelLines.length > 0 && (
         <div className="card-grid">
           {modelLines.map((line) => (
             <div key={line.name} className="item-block">

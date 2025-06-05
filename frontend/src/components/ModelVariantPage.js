@@ -31,10 +31,8 @@ export default function ModelVariantPage() {
       <h1>
         Variants for {decodedModelLineName} ({decodedBrandName})
       </h1>
-
-      {variants.length === 0 ? (
-        <p>No variants found for this model line.</p>
-      ) : (
+  
+      {variants.length > 0 && (
         <div className="card-grid">
           {variants.map((variant) => (
             <div key={variant.name} className="item-block">
@@ -57,10 +55,10 @@ export default function ModelVariantPage() {
           ))}
         </div>
       )}
-
+  
       <button className="back-button" onClick={() => navigate(-1)}>
         Back
       </button>
     </div>
-  );
+  );  
 }

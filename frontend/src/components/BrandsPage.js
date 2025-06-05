@@ -50,7 +50,7 @@ const API_BASE_URL = 'https://nosohvac.onrender.com';
 
       <input
         type="text"
-        placeholder="Search brands and model lines..."
+        placeholder="Search brands and parts..."
         value={searchTerm}
         onChange={handleSearchChange}
         className="search-input"
