@@ -15,7 +15,7 @@ export default function ModelLinePage() {
       .then((res) => setModelLines(res.data))
       .catch((err) => {
         console.error(err);
-        navigate('/'); // fallback to home on error
+        navigate('/'); 
       });
   }, [decodedBrandName, navigate]);
 

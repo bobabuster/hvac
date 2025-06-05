@@ -15,7 +15,6 @@ export default function Search() {
     }
     try {
       const res = await axios.get(`http://localhost:8080/api/hvac/search?keyword=${encodeURIComponent(keyword)}`);
-      console.log('Search API response:', res.data);  // <-- Debug API data here
       setResults(res.data);
     } catch (err) {
       console.error(err);

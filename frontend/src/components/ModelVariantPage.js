@@ -19,7 +19,7 @@ export default function ModelVariantPage() {
       .then((res) => setVariants(res.data))
       .catch((err) => {
         console.error(err);
-        navigate('/'); // fallback on error
+        navigate('/'); 
       });
   }, [decodedBrandName, decodedModelLineName, navigate]);
 

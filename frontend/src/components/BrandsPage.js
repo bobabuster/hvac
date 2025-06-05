@@ -37,7 +37,6 @@ export default function BrandsPage() {
     } else if (result.type === 'modelLine') {
       navigate(`/brand/${encodeURIComponent(result.brand)}/model-line/${encodeURIComponent(result.name)}`);
     } else if (result.type === 'modelVariant') {
-      // Redirect to model line page, using variant's line and brand
       navigate(`/brand/${encodeURIComponent(result.brand)}/model-line/${encodeURIComponent(result.line)}`);
     }
   };
