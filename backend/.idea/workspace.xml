@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="20fc118f-8530-499e-b3ec-447e1ac7de5d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/dto/SearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/dto/SearchResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/ModelLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/ModelLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/service/HvacService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/service/HvacService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/ModelLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/ModelTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/ModelVariant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lwu/hvac/unit/ModelVariant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.61a6dd54.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/main.61a6dd54.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapers/CarrierScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapers/CarrierScraper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

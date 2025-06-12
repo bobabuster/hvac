@@ -3,7 +3,7 @@ package com.lwu.hvac.controller;
 import com.lwu.hvac.dto.SearchResult;
 import com.lwu.hvac.service.HvacService;
 import com.lwu.hvac.unit.Brand;
-import com.lwu.hvac.unit.ModelLine;
+import com.lwu.hvac.unit.ModelTypes;
 import com.lwu.hvac.unit.ModelVariant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -26,18 +26,18 @@ public class Controller {
     }
 
     // GET /api/hvac/brands/{brandName}/model-lines
-    @GetMapping("/brands/{brandName}/model-lines")
-    public List<ModelLine> getModelLinesByBrand(@PathVariable String brandName) {
-        return hvacService.getModelLinesByBrand(brandName);
+    @GetMapping("/brands/{brandName}/model-types")
+    public List<ModelTypes> getModelLinesByBrand(@PathVariable String brandName) {
+        return hvacService.getModelTypesByBrand(brandName);
     }
 
     // GET /api/hvac/brands/{brandName}/model-lines/{modelLineName}/variants
-    @GetMapping("/brands/{brandName}/model-lines/{modelLineName}/variants")
+    @GetMapping("/brands/{brandName}/model-lines/{modelTypeName}/variants")
     public List<ModelVariant> getVariantsByBrandAndLine(
             @PathVariable String brandName,
-            @PathVariable String modelLineName
+            @PathVariable String modelTypeName
     ) {
-        return hvacService.getVariantsByBrandAndLine(brandName, modelLineName);
+        return hvacService.getVariantsByBrandAndType(brandName, modelTypeName);
     }
 
     // GET /api/hvac/search?keyword=...

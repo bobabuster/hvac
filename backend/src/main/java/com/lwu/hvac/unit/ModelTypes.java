@@ -2,13 +2,13 @@ package com.lwu.hvac.unit;
 
 import java.util.List;
 
-public class ModelLine {
+public class ModelTypes {
     private String name;
     private List<ModelVariant> variants;
 
-    public ModelLine() {}
+    public ModelTypes() {}
 
-    public ModelLine(String name, List<ModelVariant> variants) {
+    public ModelTypes(String name, List<ModelVariant> variants) {
         this.name = name;
         this.variants = variants;
     }

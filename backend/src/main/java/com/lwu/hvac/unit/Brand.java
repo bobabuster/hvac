@@ -4,20 +4,20 @@ import java.util.List;
 
 public class Brand {
     private String name;
-    private List<ModelLine> modelLines;
+    private List<ModelTypes> modelTypes;
 
     public Brand() {}
 
-    public Brand(String name, List<ModelLine> modelLines) {
+    public Brand(String name, List<ModelTypes> modelTypes) {
         this.name = name;
-        this.modelLines = modelLines;
+        this.modelTypes = modelTypes;
     }
 
     public String getName() {
         return name;
     }
 
-    public List<ModelLine> getModelLines() {
-        return modelLines;
+    public List<ModelTypes> getModelTypes() {
+        return modelTypes;
     }
 }
