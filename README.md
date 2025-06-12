@@ -1,6 +1,6 @@
 <h2> How to Run the Program </h2>
 
-Use the link <code> https://hvac-dla8.onrender.com</code>. It may take 2 minutes for the server to load. 
+Use the link <code>https://hvac-dla8.onrender.com</code>. It may take 2 minutes for the server to load. 
 
 <h2> Data Structures and Structure </h2>
 

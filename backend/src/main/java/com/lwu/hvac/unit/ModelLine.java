@@ -3,7 +3,7 @@ package com.lwu.hvac.unit;
 import java.util.List;
 
 public class ModelLine {
-    private String name; // e.g., "Infinity Refrigerator Series"
+    private String name;
     private List<ModelVariant> variants;
 
     public ModelLine() {}

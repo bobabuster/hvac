@@ -27,7 +27,6 @@ public class SearchResult {
         this.line = line;
     }
 
-    // Getters and setters
     public String getType() {
         return type;
     }
